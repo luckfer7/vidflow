@@ -13,7 +13,7 @@ async function procurarEMostrarVideos() {
                     <img class="img-canal" src="${video.imagem}" alt="Logo do canal">
                     <h3 class="titulo-video">${video.titulo}</h3>
                     <p class="titulo-canal">${video.descricao}</p>
-                    //Código omitido
+                    
 
                     <p class="categoria" hidden>${video.categoria}</p>
 
@@ -49,9 +49,6 @@ function filtrarPesquisa () {
         }
     }
 }
-
-//Código omitido
-//Código omitido
 
 const botaoCategoria = document.querySelectorAll(".superior__item");
 
